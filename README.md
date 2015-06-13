@@ -1,2 +1,4 @@
 # RailsToplist
-Ruby on Rails App Store Top List
+Initalize Ruby on Rails App Store Top List
+
+
