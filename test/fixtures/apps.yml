@@ -1,0 +1,39 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  category: MyString
+  date: 2015-06-14
+  id: 1
+  name: MyString
+  icon: MyString
+  url: MyString
+  release_date: 2015-06-14 13:04:29
+  updated_date: 2015-06-14 13:04:29
+  in_app_purchases: false
+  rating: 1
+  price: 9.99
+  global_ratings: 1
+  current_version_ratings: 1
+  iphone_downloads: 1
+  ipad_downloads: 1
+  iphone_revenue: 9.99
+  ipad_revenue: 9.99
+
+two:
+  category: MyString
+  date: 2015-06-14
+  id: 1
+  name: MyString
+  icon: MyString
+  url: MyString
+  release_date: 2015-06-14 13:04:29
+  updated_date: 2015-06-14 13:04:29
+  in_app_purchases: false
+  rating: 1
+  price: 9.99
+  global_ratings: 1
+  current_version_ratings: 1
+  iphone_downloads: 1
+  ipad_downloads: 1
+  iphone_revenue: 9.99
+  ipad_revenue: 9.99
