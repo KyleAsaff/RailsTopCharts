@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  root 'static_pages#paid'
-  get 'free' => 'static_pages#free'
-  get 'paid' => 'static_pages#paid'
-  get 'top_grossing' => 'static_pages#top_grossing'
+  root 'app_listing#paid'
+  get 'free' => 'app_listing#free'
+  get 'paid' => 'app_listing#paid'
+  get 'top_grossing' => 'app_listing#top_grossing'
 end
