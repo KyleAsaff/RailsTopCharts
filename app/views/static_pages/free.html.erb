@@ -1,7 +1,13 @@
-<% provide(:title, "Free") %>
+<% provide(:title, "Top Free") %>
 <div class="center jumbotron">
   <h1>Free</h1>
-  <h2>
-	Top Free Apps
-  </h2>
+
+  <ul class="users">
+    <% @static_pages.each do |app| %>
+      <li>
+        <%= app.id %>
+      </li>
+    <% end %>
+  </ul>
+  <%= will_paginate %>  
 </div>
