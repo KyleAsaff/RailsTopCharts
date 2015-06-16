@@ -1,11 +1,11 @@
 <li id="app-<%= app.id %>">
-	<div class="left-info .col-md-4">
+	<div class="left-info">
 		<span class="ranking">
 			<h3><%= (app_counter+1) + (@apps.size)*((params[:page].to_i == 0? 0 : params[:page].to_i - 1)) %></h3>
 		</span>
 		<img  src="<%= app.icon %>" class="img-responsive img-rounded" alt="icon">
 	</div>
-	<div class="mid-info .col-md-4">
+	<div class="mid-info">
 		<span class="name"><%= app.name %></span>
 		<span class="company"><%= app.company %></span>
 		<span class="rating">
@@ -16,7 +16,7 @@
 		</span>
 		<span class="country_rating">(<%= app.country_ratings %>)</span>
 	</div>
-	<div class="right-info .col-md-4">
+	<div class="right-info">
 		<a class="btn btn-primary btn-block" href="<%= app.url %>" target="_blank">
 			<%= app.price > 0.00 ? "$"+app.price.to_s : "FREE" %>
 		</a>

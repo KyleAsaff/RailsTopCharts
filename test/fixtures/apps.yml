@@ -1,10 +1,10 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  category: MyString
+  category: US
   date: 2015-06-14
   id: 1
-  name: MyString
+  name: test1
   icon: MyString
   url: MyString
   release_date: 2015-06-14 13:04:29
@@ -20,10 +20,10 @@ one:
   ipad_revenue: 9.99
 
 two:
-  category: MyString
+  category: US
   date: 2015-06-14
-  id: 1
-  name: MyString
+  id: 2
+  name: test2
   icon: MyString
   url: MyString
   release_date: 2015-06-14 13:04:29
@@ -37,3 +37,60 @@ two:
   ipad_downloads: 1
   iphone_revenue: 9.99
   ipad_revenue: 9.99
+
+three:
+  category: US
+  date: 2015-06-14
+  id: 3
+  name: ImTopGrossing
+  icon: MyString
+  url: MyString
+  release_date: 2015-06-14 13:04:29
+  updated_date: 2015-06-14 13:04:29
+  in_app_purchases: false
+  rating: 1
+  price: 9.99
+  global_ratings: 1
+  current_version_ratings: 1
+  iphone_downloads: 1
+  ipad_downloads: 1
+  iphone_revenue: 100
+  ipad_revenue: 100
+
+four:
+  category: US
+  date: 2015-06-14
+  id: 4
+  name: ImTopFree
+  icon: MyString
+  url: MyString
+  release_date: 2015-06-14 13:04:29
+  updated_date: 2015-06-14 13:04:29
+  in_app_purchases: false
+  rating: 1
+  price: 0.00
+  global_ratings: 1
+  current_version_ratings: 1
+  iphone_downloads: 100
+  ipad_downloads: 100
+  iphone_revenue: 90
+  ipad_revenue: 80
+
+five:
+  category: US
+  date: 2015-06-14
+  id: 5
+  name: ImTopPaid
+  icon: MyString
+  url: MyString
+  release_date: 2015-06-14 13:04:29
+  updated_date: 2015-06-14 13:04:29
+  in_app_purchases: false
+  rating: 1
+  price: 9.99
+  global_ratings: 1
+  current_version_ratings: 1
+  iphone_downloads: 100
+  ipad_downloads: 100
+  iphone_revenue: 75
+  ipad_revenue: 75
