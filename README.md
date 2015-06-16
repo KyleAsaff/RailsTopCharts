@@ -1,4 +1,4 @@
-# Ruby on Rails App Store Top List
+# Ruby on Rails App Store Top Charts
 
 This project is an 'approximation' of the Apple App Store created with Ruby on Rails. The data for the database was pulled on May 8, 2015.
 
