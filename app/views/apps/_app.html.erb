@@ -1,25 +1,24 @@
-
-	<li id="app-<%= app.id %>">
-		<div class="left-info .col-md-4">
-			<span class="ranking">
-				<h3><%= (app_counter+1) + (@apps.size)*((params[:page].to_i == 0? 0 : params[:page].to_i - 1)) %></h3>
-			</span>
-			<img  src="<%= app.icon %>" class="img-responsive img-rounded" alt="icon">
-		</div>
-		<div class="mid-info .col-md-4">
-			<span class="name"><%= app.name %></span>
-			<span class="company"><%= app.company %></span>
-			<span class="rating">
-				<div class="rating_bar">
-					<div  class="rating" style="width: <%=((app.rating.to_f/5.0)*100) %>%">
-					</div>
+<li id="app-<%= app.id %>">
+	<div class="left-info .col-md-4">
+		<span class="ranking">
+			<h3><%= (app_counter+1) + (@apps.size)*((params[:page].to_i == 0? 0 : params[:page].to_i - 1)) %></h3>
+		</span>
+		<img  src="<%= app.icon %>" class="img-responsive img-rounded" alt="icon">
+	</div>
+	<div class="mid-info .col-md-4">
+		<span class="name"><%= app.name %></span>
+		<span class="company"><%= app.company %></span>
+		<span class="rating">
+			<div class="rating_bar">
+				<div  class="rating" style="width: <%=((app.rating.to_f/5.0)*100) %>%">
 				</div>
-			</span>
-			<span class="country_rating">(<%= app.country_ratings %>)</span>
-		</div>
-		<div class="right-info .col-md-4">
-			<a class="btn btn-primary btn-block" href="<%= app.url %>" target="_blank">
-				<%= app.price > 0.00 ? "$"+app.price.to_s : "FREE" %>
-			</a>
-		</div>
-	</li>
+			</div>
+		</span>
+		<span class="country_rating">(<%= app.country_ratings %>)</span>
+	</div>
+	<div class="right-info .col-md-4">
+		<a class="btn btn-primary btn-block" href="<%= app.url %>" target="_blank">
+			<%= app.price > 0.00 ? "$"+app.price.to_s : "FREE" %>
+		</a>
+	</div>
+</li>
