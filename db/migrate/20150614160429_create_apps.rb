@@ -4,7 +4,6 @@ class CreateApps < ActiveRecord::Migration
       t.string :country
       t.string :category
       t.date :date
-      # t.integer :app_id
       t.string :name
       t.string :company
       t.string :icon
@@ -12,7 +11,7 @@ class CreateApps < ActiveRecord::Migration
       t.timestamp :release_date
       t.timestamp :updated_date
       t.boolean :in_app_purchases
-      t.integer :rating
+      t.decimal :rating
       t.decimal :price
       t.integer :global_ratings
       t.integer :current_version_ratings
