@@ -1,0 +1,10 @@
+<% provide(:title, "Top Paid") %>
+<div class="center jumbotron">
+	<h3>Top Paid</h3>
+	<ul class="app-listing">
+		<%= render partial: 'app', collection: @apps %>
+	</ul>
+	<div class="text-center">
+		<%= will_paginate %>  
+	</div>
+</div>
