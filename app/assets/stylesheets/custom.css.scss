@@ -113,20 +113,20 @@ footer {
 
 /* Star Ratings */
 .rating_bar {
-    width: 80px;
-    height: 16px;
-    text-align: left;
+  width: 80px;
+  height: 16px;
+  text-align: left;
     //background: url(stars.png);
     /* For heroku */
     background: url(http://kylesbox.com/toplist/stars.png);
     background-position: 0 0;
     background-repeat: repeat-x;
-}
-.rating {
+  }
+  .rating {
     height: 16px;
     // background: url(stars.png);
     /* For heroku */
     background: url(http://kylesbox.com/toplist/stars.png);
     background-repeat: repeat-x;
     background-position: 0 -16px;
-}
+  }
