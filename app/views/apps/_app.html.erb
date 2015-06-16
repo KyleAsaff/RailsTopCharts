@@ -1,4 +1,4 @@
-<div class="wrapper">
+
 	<li id="app-<%= app.id %>">
 		<div class="left-info .col-md-4">
 			<span class="ranking">
@@ -9,8 +9,13 @@
 		<div class="mid-info .col-md-4">
 			<span class="name"><%= app.name %></span>
 			<span class="company"><%= app.company %></span>
-			<span class="rating"><%= app.rating %></span>
-			<span class="country_rating"><%= app.country_ratings %></span>
+			<span class="rating">
+				<div class="rating_bar">
+					<div  class="rating" style="width: <%=((app.rating.to_f/5.0)*100) %>%">
+					</div>
+				</div>
+			</span>
+			<span class="country_rating">(<%= app.country_ratings %>)</span>
 		</div>
 		<div class="right-info .col-md-4">
 			<a class="btn btn-primary btn-block" href="<%= app.url %>" target="_blank">
@@ -18,4 +23,3 @@
 			</a>
 		</div>
 	</li>
-</div>

@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 20150614160429) do
     t.datetime "release_date"
     t.datetime "updated_date"
     t.boolean  "in_app_purchases"
-    t.integer  "rating"
+    t.decimal  "rating"
     t.decimal  "price"
     t.integer  "global_ratings"
     t.integer  "current_version_ratings"
