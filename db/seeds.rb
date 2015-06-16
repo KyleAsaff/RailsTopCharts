@@ -3,7 +3,7 @@
 require 'csv'
 require 'date'
 
-csv_file_path = "#{Rails.root}/db/category-rankings_US_iPhone_AllCategories_2015-5-8_Stripped.csv"
+csv_file_path = "#{Rails.root}/db/data.csv"
 puts csv_file_path
 CSV.foreach(csv_file_path, headers: true, :encoding => 'windows-1251:utf-8') do |row|
   id = row[3]
