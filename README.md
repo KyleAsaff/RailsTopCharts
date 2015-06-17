@@ -9,4 +9,4 @@ A live demo of this project can be viewed at http://topcharts.kylesbox.com/
 - Displays a view for the Top Paid Apps for corresponding data
 - Displays a view for the Top Free Apps for corresponding data
 - Displays a view for the Top Grossing Apps for corresponding data
-- Usese pagination to display 50 listings on each chart
+- Uses pagination to limit the lists 50 on each page
