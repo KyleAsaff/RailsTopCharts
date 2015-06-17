@@ -5,7 +5,7 @@ require 'date'
 
 csv_file_path = "#{Rails.root}/db/category-rankings_US_iPhone_All Categories_2015-5-8_Stripped.csv"
 puts csv_file_path
-CSV.foreach(csv_file_path, headers: true, :encoding => 'windows-1251:utf-8') do |row|
+CSV.foreach(csv_file_path, headers: true, :encoding => 'MacRoman') do |row|
   id = row[3]
   date = Date.strptime(row[2], "%m/%d/%y")
   iap = row[10]? true : false
