@@ -50,18 +50,18 @@ CSV.foreach(csv_file_path, headers: true, :encoding => 'MacRoman') do |row|
     :url => row[7],
     :release_date => row[8],
     :updated_date => row[9],
-    :in_app_purchases => row[10],
+    :in_app_purchases => iap,
     :rating => row[11].to_i,
     :price => row[12].to_f,
     :global_ratings => row[13].to_i,
     :country_ratings => row[14].to_i,
-    :current_version_ratings => row[15],
+    :current_version_ratings => row[15].to_i,
     :iphone_downloads => row[16].to_i,
     :ipad_downloads => row[17].to_i,
     :iphone_revenue => row[18].to_s.tr('$', '').to_f,
     :ipad_revenue => row[19].to_s.tr('$', '').to_f
   })
-    puts "Added Record (ID: "+id+")"
+    puts "Updated Record (ID: "+id+")"
 =end
 
   end
