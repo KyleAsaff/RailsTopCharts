@@ -1,0 +1,6 @@
+$(".app-listing").append("<%= j render partial: 'app', collection: @apps %>");
+<% if @apps.next_page %>
+	$(".pagination").replaceWith("<%= j will_paginate(@apps) %>");
+<% else %>
+	$(".pagination").remove();
+<% end %>
