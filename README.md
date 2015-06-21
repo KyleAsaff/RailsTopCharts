@@ -1,6 +1,7 @@
 # Ruby on Rails App Store Top Charts
 
-This project is an 'approximation' of the Apple App Store created with Ruby on Rails. The data for the database was pulled on May 8, 2015.
+This project is an 'approximation' of the Apple App Store created with Ruby on Rails. 
+The data for the database was pulled on May 8, 2015.
 
 A live demo of this project can be viewed at http://topcharts.kylesbox.com/
 
