@@ -17,3 +17,4 @@ A live demo of this project can be viewed at http://topcharts.kylesbox.com/
 - Periodically pull app store data
 - Monitor change in app rankings
 - Display if app has IAP
+- Display a view for "New and Rising" Apps
