@@ -14,7 +14,7 @@ A live demo of this project can be viewed at http://topcharts.kylesbox.com/
 - Pagination infinite-scroll for each chart
 
 # To Do
-- Periodically pull app store data
+- Periodically fetch app store data
 - Monitor change in app rankings
 - Display if app has In App Purchases
 - Display a view for "New and Rising" Apps
