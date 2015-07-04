@@ -3,7 +3,7 @@
 This project is an 'approximation' of the Apple App Store created with Ruby on Rails. 
 The data for the database was pulled on May 8, 2015.
 
-A live demo of this project can be viewed at http://topcharts.kylesbox.com/
+A live demo of this project can be viewed at http://topcharts.kylesbox.com/.
 
 # Features
 - Reads raw data from a CSV file and stores data in a PostgreSQL database
